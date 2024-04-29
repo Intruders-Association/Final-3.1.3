@@ -1,0 +1,54 @@
+[
+    {
+        "id": 1,
+        "name": "admin",
+        "age": 48,
+        "email": "admin@ex.com",
+        "password": "admin",
+        "roleSet": [
+            {
+                "id": 1,
+                "name": "ROLE_ADMIN",
+                "authority": "ROLE_ADMIN"
+            }
+        ],
+        "enabled": true,
+        "username": "admin",
+        "authorities": [
+            {
+                "id": 1,
+                "name": "ROLE_ADMIN",
+                "authority": "ROLE_ADMIN"
+            }
+        ],
+        "accountNonExpired": true,
+        "credentialsNonExpired": true,
+        "accountNonLocked": true
+    },
+    {
+        "id": 2,
+        "name": "user",
+        "age": 22,
+        "email": "user@ex.com",
+        "password": "user",
+        "roleSet": [
+            {
+                "id": 2,
+                "name": "ROLE_USER",
+                "authority": "ROLE_USER"
+            }
+        ],
+        "enabled": true,
+        "username": "user",
+        "authorities": [
+            {
+                "id": 2,
+                "name": "ROLE_USER",
+                "authority": "ROLE_USER"
+            }
+        ],
+        "accountNonExpired": true,
+        "credentialsNonExpired": true,
+        "accountNonLocked": true
+    }
+]
